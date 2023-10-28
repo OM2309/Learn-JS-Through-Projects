@@ -5,6 +5,21 @@ function test() {
   console.log(a, b);
   return 1;
 }
+// exports = {}
+
+// exports.test = test
+// exports.a1 = a
+// exports.b = b
+/*
+
+exports = {
+
+    test: test,
+    a1: a,
+    b: b
+}
+
+
 
 // exports= {
 //     a,
@@ -12,18 +27,6 @@ function test() {
 //     test
 // }
 
-// exports = {}
-
-// exports.test = test
-// exports.a1 = a
-// exports.b = b
-/*
-exports = {
-
-    test: test,
-    a1: a,
-    b: b
-}
 exports = 4
 
 exports = {
