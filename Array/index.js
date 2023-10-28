@@ -68,8 +68,8 @@ const dc_heros = ['flash','superman','batman']
 // console.log(Array.from({name: 'Anurag'}))
 
 
-let a = 100
-let b = 200
-let c = 300
+// let a = 100
+// let b = 200
+// let c = 300
 
-console.log(Array.of(a,b,c))
+// console.log(Array.of(a,b,c))
