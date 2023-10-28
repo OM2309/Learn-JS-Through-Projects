@@ -39,7 +39,7 @@ const dc_heros = ['flash','superman','batman']
 // console.log(Allheros);
 
 // spread operator
-const all_new_heros = [...marvel_heros , ...dc_heros]
+// const all_new_heros = [...marvel_heros , ...dc_heros]
 // const all_new_heros = {...marvel_heros , ...dc_heros}  all keys are unique in object thats why we replace the marvel heros in the same index
 
 // {
@@ -50,6 +50,26 @@ const all_new_heros = [...marvel_heros , ...dc_heros]
 //     '4': 'black_widow'
 //   }
 
-console.log(all_new_heros)
+// console.log(all_new_heros)
+
+// const another_array = [1,2,3,[4,5,6],7,[8,9,[10,11],12],13,14,15]
+// const real_another_array = another_array.flat(Infinity)
+// console.log(real_another_array);
+// [
+//     1,  2,  3,  4,  5,  6,
+//     7,  8,  9, 10, 11, 12,
+//    13, 14, 15
+//  ]
 
 
+
+// console.log(Array.isArray('Anurag'));  false
+// console.log(Array.from('Anurag')); [ 'A', 'n', 'u', 'r', 'a', 'g' ] 
+// console.log(Array.from({name: 'Anurag'}))
+
+
+let a = 100
+let b = 200
+let c = 300
+
+console.log(Array.of(a,b,c))
