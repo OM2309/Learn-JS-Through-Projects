@@ -40,7 +40,7 @@ const dc_heros = ['flash','superman','batman']
 
 // spread operator
 const all_new_heros = [...marvel_heros , ...dc_heros]
-// const all_new_heros = {...marvel_heros , ...dc_heros}  all keys are unique in object thats why we replace the marvel heros 
+// const all_new_heros = {...marvel_heros , ...dc_heros}  all keys are unique in object thats why we replace the marvel heros in the same index
 
 // {
 //     '0': 'flash',
@@ -51,4 +51,5 @@ const all_new_heros = [...marvel_heros , ...dc_heros]
 //   }
 
 console.log(all_new_heros)
+
 

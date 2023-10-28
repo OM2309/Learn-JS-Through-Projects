@@ -1,1 +1,0 @@
-const all_new_heros = [...marvel_heros , ...dc_heros]
