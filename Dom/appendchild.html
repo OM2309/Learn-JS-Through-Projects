@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body style="background-color: #212121; color: #fff">
+  </head>
+  <body style="background-color: #212121; color: #fff">
     <ul class="language">
-        <li>JavaScript</li>
+      <li>JavaScript</li>
     </ul>
 
     <script>
-        function addLanguage(langName) {
-            const li = document.createElement("li");
-            li.innerHTML = `${langName}`;
-            document.querySelector(".language").appendChild(li);
-        }
+      function addLanguage(langName) {
+        const li = document.createElement("li");
+        li.innerHTML = `${langName}`;
+        document.querySelector(".language").appendChild(li);
+      }
 
-        function addOptiLanguage(langName){
-            const li = document.createElement("li");
-        }
+      function addOptiLanguage(langName) {
+        const li = document.createElement("li");
+      }
 
-        addLanguage("Python");
+      addLanguage("Python");
 
-        const secondlang = document.querySelector("li:nth-child(2)");
-        secondlang.innerHTML = "Mojo"
-
+      const secondlang = document.querySelector("li:nth-child(2)");
+      secondlang.innerHTML = "Mojo";
     </script>
-</body>
-
+  </body>
 </html>
