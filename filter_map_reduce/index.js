@@ -70,13 +70,13 @@
 
 //   console.log(newNums);
 
-const myNums = [1, 2, 3, 4];
+// const myNums = [1, 2, 3, 4];
 
-const initialValues = 5;
+// const initialValues = 5;
 
-const myTotal = myNums.reduce(function (acc, currval) {
-  console.log(`The value of acc: ${acc} and currval: ${currval}`);
-  return acc + currval;
-}, initialValues);
+// const myTotal = myNums.reduce(function (acc, currval) {
+//   console.log(`The value of acc: ${acc} and currval: ${currval}`);
+//   return acc + currval;
+// }, initialValues);
 
-console.log(myTotal);
+// console.log(myTotal);
