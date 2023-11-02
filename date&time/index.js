@@ -26,7 +26,7 @@
 // if we convert small unit to big unit like ms to second then we have to divide 
 //  if you are converting from a larger unit to a smaller unit, you multiply by 60, and if you are converting from a smaller unit to a larger unit, you divide by 60.
 
-let newDate = new Date();
-console.log(newDate.getDay());
-console.log(newDate.getMonth());
-console.log(newDate.getYear());
+// let newDate = new Date();
+// console.log(newDate.getDay());
+// console.log(newDate.getMonth());
+// console.log(newDate.getYear());
