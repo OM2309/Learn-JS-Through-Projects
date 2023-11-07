@@ -1,0 +1,46 @@
+<!-- //   event bubbling follow the rules lower to upper
+//   event capturing follow the rules upper to lower
+//   the event default valuse is false which will use the bubblimg propagation/event bubbling when the value is set true then the eventt uses the capturing propagation -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body" style="background-color: blue">
+    <div class="container" id="container" style="background-color: red; height: 400px; width: 400px">
+      <button id="btn">Click</button>
+    </div>
+
+    <script>
+       let body = document.getElementById("body");
+       let container = document.getElementById("container");
+       let button = document.getElementById("btn");
+
+    //    body.addEventListener("click", () => {
+    //     alert('body');
+    //    },true)
+    //    container.addEventListener("click", () => {
+    //     alert('container');
+    //    },true)
+    //    button.addEventListener("click", () => {
+    //     alert('button');
+    //    },true)
+
+       body.addEventListener("click", () => {
+        alert('body');
+       })
+       container.addEventListener("click", () => {
+        alert('container');
+       })
+       button.addEventListener("click", (e) => {
+        alert('button');
+        e.stopPropagation();
+       })
+    </script>
+  </body>
+</html>
