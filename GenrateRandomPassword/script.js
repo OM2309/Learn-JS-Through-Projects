@@ -28,5 +28,15 @@ function createPassword() {
     passwordBox.value = password;
 }
 
+function copyPassword() {
+   
+    passwordBox.select();
+     try {
+      document.execCommand("copy");
+        alert("Password copied to clipboard");
+    } catch (err) {
+        alert("Unable to copy password. Please select and copy it manually.");
+    }
+}
 
 createPassword();
