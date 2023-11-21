@@ -80,3 +80,13 @@
 // }, initialValues);
 
 // console.log(myTotal);
+
+const nums = [1, 2, 3, 4, 5, 6];
+
+let id = (id) => {
+  return nums.filter((n) => {
+    return n !== id;
+  });
+};
+
+console.log(id(4));
